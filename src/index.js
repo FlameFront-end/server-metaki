@@ -7,7 +7,7 @@ import Mail from './mail.js'
 const app = express()
 
 
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: '*' }));
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => res.send(`<h1>Hello World</h1>`))
