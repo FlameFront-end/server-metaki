@@ -4,8 +4,8 @@
     "EMAIL_HOST": "smtp.gmail.com",
     "EMAIL_HOST_PASSWORD": "kzwq mptz pzsr ivhd",
     "EMAIL_HOST_USER": "liubovimetaki@gmail.com",
-    "EMAIL_PORT": 587,
-    "EMAIL_RECEIVER": "5017_30@mail.ru",
+    "EMAIL_PORT": "587",
+    "EMAIL_RECEIVER": "5017_30@mail.ru"
   },
   "builds": [
     {
@@ -21,6 +21,7 @@
         "GET",
         "POST",
         "PUT",
+        "OPTIONS",
         "DELETE"
       ],
       "headers": {
